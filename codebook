@@ -1,0 +1,28 @@
+This file explains all the variables in the run_analysis.R 
+
+train_subject       - subject id in train  
+train_X             - recorded value for training set 
+train_y             - recorded activity for training set 
+type                - indicate for training 
+trainData           - combine train_subject, train_X, train_y and type 
+
+test_subject        - subject id in test  
+test_X              - recorded value for testing set  
+test_y              - recorded activity for testing set
+type                - indicate for testing 
+testData            - combine test_subject, test_X, test_y and type 
+
+data                - combine both training and testing dataset 
+
+featuresname        - all the features names 
+meanValue           - the features names with mean 
+stdValue            - the features names with std
+extractionPoint     - the points to extract 
+filteredData        - data extracted by extractionPoint
+
+labels              - activity labels
+cleanData           - the activity ids in data are replaced by activity labels  
+
+meltData            - the clean data classified by variable, subjectID and activity 
+
+tidyData            - the target data which stored the mean for each variable of each subject for each activity 
